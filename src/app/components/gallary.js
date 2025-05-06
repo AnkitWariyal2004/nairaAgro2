@@ -34,7 +34,27 @@ const items = [
   { "img": "/NCSIG/29.jpeg", "alt": "Farm team working" },
   { "img": "/NCSIG/30.jpeg", "alt": "Farm team working" },
   { "img": "/NCSIG/31.jpeg", "alt": "Farm team working" },
-  { "img": "/NCSIG/32.jpeg", "alt": "Farm team working" }
+  { "img": "/NCSIG/32.jpeg", "alt": "Farm team working" },
+
+  { "img": "/Gallary/06052025/3.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/4.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/5.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/6.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/7.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/8.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/9.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/10.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/11.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/12.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/13.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/14.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/15.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/16.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/17.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/18.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/19.jpeg", "alt": "Farm team working" },
+  { "img": "/Gallary/06052025/20.jpeg", "alt": "Farm team working" },
+
 ];
 
 const breakpointColumnsObj = {
