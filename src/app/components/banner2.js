@@ -174,26 +174,31 @@ export default function Banner1() {
 const sliderImages = [
   {
     id: 1,
-    src: "/NCSIG/aboutsection_c/4.jpeg",
+    src: "/Gallary/products/3.webp",
     alt: "Organic Farm Landscape"
   },
   {
     id: 2,
+    src: "/Gallary/products/6.webp",
+    alt: "Honey natural production"
+  },
+  {
+    id: 4,
     src: "/NCSIG/aboutsection_c/5.jpeg",
     alt: "Moringa Powder Production"
   },
   {
-    id: 3,
+    id: 5,
     src: "/NCSIG/aboutsection_c/6.jpg",
     alt: "Sahiwal Cows Grazing"
   },
   {
-    id: 4,
+    id: 6,
     src: "/NCSIG/aboutsection_c/7.jpeg",
     alt: "Farm Fresh Products"
   },
   {
-    id: 5,
+    id: 7,
     src: "/NCSIG/aboutsection_c/8.jpg",
     alt: "Farm Fresh Products"
   }
@@ -205,7 +210,11 @@ const accordionData = [
     title: "Moringa Powder",
     content: (
       <>
-        <p className="mb-4">Nutritional supplement made from dried Moringa oleifera leaves, packed with essential vitamins and minerals.</p>
+        <p className="mb-4">
+          Nutritional supplement made from dried Moringa oleifera leaves,
+          packed with essential vitamins and minerals.
+        </p>
+
         <h3 className="font-semibold text-green-700 mb-2">Benefits:</h3>
         <ul className="list-disc pl-5 space-y-1 mb-4">
           <li>Rich in antioxidants that protect against cell damage</li>
@@ -214,6 +223,7 @@ const accordionData = [
           <li>Reduces inflammation and supports digestive health</li>
           <li>Boosts energy levels and endurance</li>
         </ul>
+
         <h3 className="font-semibold text-green-700 mb-2">Uses:</h3>
         <ul className="list-disc pl-5 space-y-1">
           <li>Add to smoothies and juices</li>
@@ -225,11 +235,85 @@ const accordionData = [
       </>
     ),
   },
+
+  {
+    title: "Naira Agro Honey",
+    content: (
+      <>
+        <p className="mb-4">
+          Our honey is harvested directly from natural bee farms and delivered
+          in its purest form, preserving its natural taste, aroma, and
+          nutrients.
+        </p>
+
+        <h3 className="font-semibold text-green-700 mb-2">
+          What Sets Naira Agro Honey Apart?
+        </h3>
+
+        <ul className="list-disc pl-5 space-y-2 mb-4">
+          <li>
+            <strong>Pure & Unadulterated:</strong> We guarantee 0% added sugar,
+            corn syrup, or artificial preservatives. What you see is 100% pure
+            nectar.
+          </li>
+
+          <li>
+            <strong>Farm Fresh Integrity:</strong> By sourcing directly from our
+            managed apiaries, we ensure the honey remains rich in natural
+            enzymes and antioxidants that support your health.
+          </li>
+
+          <li>
+            <strong>Artisanal Packaging:</strong> Our signature glass jar
+            represents our commitment to traditional farming values and
+            sustainable packaging.
+          </li>
+
+          <li>
+            <strong>Retained Pollen:</strong> We perform minimal straining,
+            leaving the beneficial bee pollen intact which is often lost in
+            commercial clear honey.
+          </li>
+        </ul>
+
+        <h3 className="font-semibold text-green-700 mb-2">
+          How to Enjoy the Naira Agro Experience
+        </h3>
+
+        <ul className="list-disc pl-5 space-y-2 mb-4">
+          <li>
+            <strong>The Morning Ritual:</strong> Stir it into warm lemon water or
+            drizzle over overnight oats.
+          </li>
+
+          <li>
+            <strong>The Gourmet Touch:</strong> Pair it with nuts, toast or use
+            it as a glaze for roasted vegetables.
+          </li>
+
+          <li>
+            <strong>The Natural Healer:</strong> Mix with ginger or turmeric for
+            a powerful natural wellness drink that supports immunity.
+          </li>
+        </ul>
+
+        <p className="italic text-gray-700">
+          "We don't make the honey — the bees do. We simply ensure it reaches
+          your table with all its natural goodness preserved."
+        </p>
+      </>
+    ),
+  },
+
   {
     title: "Sahiwal Cows",
     content: (
       <>
-        <p className="mb-4">Premium dairy breed originating from Punjab, Pakistan, known for high milk production and heat tolerance.</p>
+        <p className="mb-4">
+          Premium dairy breed originating from Punjab, Pakistan, known for high
+          milk production and heat tolerance.
+        </p>
+
         <h3 className="font-semibold text-green-700 mb-2">Characteristics:</h3>
         <ul className="list-disc pl-5 space-y-1 mb-4">
           <li>Exceptional heat tolerance (ideal for tropical regions)</li>
@@ -241,11 +325,16 @@ const accordionData = [
       </>
     ),
   },
+
   {
     title: "Gir Cows",
     content: (
       <>
-        <p className="mb-4">Premium Indian dairy breed from Gujarat, renowned for its high milk yield and distinctive appearance.</p>
+        <p className="mb-4">
+          Premium Indian dairy breed from Gujarat, renowned for its high milk
+          yield and distinctive appearance.
+        </p>
+
         <h3 className="font-semibold text-green-700 mb-2">Characteristics:</h3>
         <ul className="list-disc pl-5 space-y-1 mb-4">
           <li>Excellent heat tolerance for tropical regions</li>
@@ -257,15 +346,30 @@ const accordionData = [
       </>
     ),
   },
+
   {
     title: "Our Organic Products",
     content: (
       <>
-        <p className="mb-4">At Naira Agro Farm, we offer a range of pure organic products:</p>
+        <p className="mb-4">
+          At Naira Agro Farm, we offer a range of pure organic products:
+        </p>
+
         <ul className="list-disc pl-5 space-y-2">
-          <li><strong>Kadknath Chicken and Eggs:</strong> Protein-rich and immunity-boosting, raised naturally for premium nutrition</li>
-          <li><strong>Fruit Trees:</strong> Banana, Mango, and Guava trees nurtured using organic practices</li>
-          <li><strong>Pulses and Dals:</strong> Chakki-fresh products sourced from local farmers</li>
+          <li>
+            <strong>Kadaknath Chicken and Eggs:</strong> Protein-rich and
+            immunity-boosting, raised naturally for premium nutrition.
+          </li>
+
+          <li>
+            <strong>Fruit Trees:</strong> Banana, Mango, and Guava trees nurtured
+            using organic practices.
+          </li>
+
+          <li>
+            <strong>Pulses and Dals:</strong> Chakki-fresh products sourced from
+            local farmers.
+          </li>
         </ul>
       </>
     ),
