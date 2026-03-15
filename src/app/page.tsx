@@ -9,6 +9,7 @@ import Banner3 from "@/app/components/banner3";
 // import SwappingCards from "@/app/components/banner4";
 import Whtprovd from "@/app/components/whtprov";
 import Gallary from "@/app/components/gallary"
+import FarmVideosSection from "@/app/components/FarmVideosSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
             <ShufflingBanner />
           </div>
         </section>
+
+        <FarmVideosSection/>
+        
         <section>
         <section id="about-us">
           <Banner1 />
